@@ -7,7 +7,6 @@ import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { fetchInvoicesPages } from '@/app/lib/data';
 
- 
 export default async function Page({searchParams}:{searchParams?:{query?:string,
 page?:string}}) {
   /** if you mention searchParams as a prop then this component will automatically ftch from the url therefore no need to use 'useSearchParams()' */
